@@ -7,7 +7,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37fa88b3-22c5-4666-b048-3a30b48b29c5" name="Default Changelist" comment="" />
+    <list default="true" id="37fa88b3-22c5-4666-b048-3a30b48b29c5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/irtipbeans/target/" />
@@ -246,7 +248,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-18" />
     <option name="y" value="40" />
     <option name="width" value="1346" />
@@ -269,6 +271,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -458,12 +461,12 @@
       <workItem from="1557320006894" duration="14000" />
       <workItem from="1557362755708" duration="11315000" />
       <workItem from="1557449177173" duration="1821000" />
-      <workItem from="1557475357073" duration="855000" />
+      <workItem from="1557475357073" duration="1216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182253000" />
+    <option name="totallyTimeSpent" value="182614000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -475,7 +478,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
