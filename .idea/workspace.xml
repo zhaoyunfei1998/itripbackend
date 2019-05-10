@@ -79,6 +79,7 @@
           <entry key="java" value="8220" />
           <entry key="jsp" value="56" />
           <entry key="properties" value="174" />
+          <entry key="txt" value="3" />
           <entry key="xml" value="1100" />
         </counts>
       </usages-collector>
@@ -86,6 +87,7 @@
         <counts>
           <entry key="JAVA" value="8220" />
           <entry key="JSP" value="56" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="174" />
           <entry key="SQL" value="24" />
           <entry key="XML" value="1076" />
@@ -156,6 +158,9 @@
     <findStrings>
       <find>my</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -241,7 +246,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-18" />
     <option name="y" value="40" />
     <option name="width" value="1346" />
@@ -453,12 +458,12 @@
       <workItem from="1557320006894" duration="14000" />
       <workItem from="1557362755708" duration="11315000" />
       <workItem from="1557449177173" duration="1821000" />
-      <workItem from="1557475357073" duration="564000" />
+      <workItem from="1557475357073" duration="855000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181962000" />
+    <option name="totallyTimeSpent" value="182253000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -471,7 +476,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -486,7 +490,7 @@
       <window_info anchor="bottom" id="Messages" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="5" weight="0.7397709" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="5" visible="true" weight="0.7409836" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49924356" weight="0.5286416" />
