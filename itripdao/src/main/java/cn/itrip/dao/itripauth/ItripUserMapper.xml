@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itrip.dao.itripauth.ItripUserMapper">
+    <select id="listItripUser" resultType="ItripUser">
+        SELECT * FROM itrip_user
+    </select>
+    <select id="getItripUserByUserName" resultType="ItripUser">
+        SELECT * FROM itrip_user where userCode=#{userCode}
+    </select>
+    <select id="getItripUserByWeibo" resultType="ItripUser">
+        select * from itrip_user where weibo=#{weibo}
+    </select>
+    <insert id="addItripUser">
+        insert into itrip_user (userCode,userPassword,userName)values
+        (#{userCode},#{userPassword},#{userName});
+    </insert>
+    <insert id="addWeiboUser">
+        insert into itrip_user (userType,userName,flatID,weibo,creationDate,activated)values
+        (#{userType},#{userName},#{flatID},#{weibo},#{creationDate},#{activated});
+    </insert>
+    <update id="updateItripUserByUserCode">
+        update itrip_user
+        <set>
+            <if test="userType!=null and userType!=''">
+                userType=#{userType},
+            </if>
+            <if test="flatID!=null and flatID!=''">
+                flatID=#{flatID},
+            </if>
+            <if test="creationDate!=null">
+                creationDate=#{creationDate},
+            </if>
+            <if test="activated!=null and activated!=''">
+                activated=#{activated},
+            </if>
+        </set>
+        where userCode=#{userCode};
+    </update>
+</mapper>

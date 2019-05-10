@@ -1,0 +1,5 @@
+cn\itrip\search\service\ItripHotelService.class
+cn\itrip\search\controller\ItripHotelController.class
+cn\itrip\search\dao\ItripHotelMapperImpl.class
+cn\itrip\search\dao\BaseDao.class
+cn\itrip\search\service\ItripHotelServiceImpl.class
